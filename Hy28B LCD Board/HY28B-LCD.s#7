@@ -10106,18 +10106,6 @@ with different sets of drill holes or mounting pads</description>
 <part name="GP24AB" library="adafruit" deviceset="SPST_TACT" device="-EVQQ2"/>
 <part name="R26" library="resistor" deviceset="R-EU_" device="M1206"/>
 <part name="R27" library="resistor" deviceset="R-EU_" device="M1206"/>
-<part name="GP5B+" library="adafruit" deviceset="SPST_TACT" device="-EVQQ2"/>
-<part name="R28" library="resistor" deviceset="R-EU_" device="M1206"/>
-<part name="R29" library="resistor" deviceset="R-EU_" device="M1206"/>
-<part name="GP6B+" library="adafruit" deviceset="SPST_TACT" device="-EVQQ2"/>
-<part name="R30" library="resistor" deviceset="R-EU_" device="M1206"/>
-<part name="R31" library="resistor" deviceset="R-EU_" device="M1206"/>
-<part name="GP13B+" library="adafruit" deviceset="SPST_TACT" device="-EVQQ2"/>
-<part name="R32" library="resistor" deviceset="R-EU_" device="M1206"/>
-<part name="R33" library="resistor" deviceset="R-EU_" device="M1206"/>
-<part name="GP19B+" library="adafruit" deviceset="SPST_TACT" device="-EVQQ2"/>
-<part name="R34" library="resistor" deviceset="R-EU_" device="M1206"/>
-<part name="R35" library="resistor" deviceset="R-EU_" device="M1206"/>
 <part name="R36" library="dp_devices" deviceset="RESISTOR" device="-1206" value="1K"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_1206"/>
 <part name="R37" library="dp_devices" deviceset="RESISTOR" device="-1206" value="1K"/>
@@ -10187,18 +10175,6 @@ with different sets of drill holes or mounting pads</description>
 <instance part="GP24AB" gate="G$1" x="73.66" y="121.92"/>
 <instance part="R26" gate="G$1" x="73.66" y="106.68" rot="R90"/>
 <instance part="R27" gate="G$1" x="78.74" y="114.3" rot="R180"/>
-<instance part="GP5B+" gate="G$1" x="96.52" y="121.92"/>
-<instance part="R28" gate="G$1" x="96.52" y="106.68" rot="R90"/>
-<instance part="R29" gate="G$1" x="101.6" y="114.3" rot="R180"/>
-<instance part="GP6B+" gate="G$1" x="119.38" y="121.92"/>
-<instance part="R30" gate="G$1" x="119.38" y="106.68" rot="R90"/>
-<instance part="R31" gate="G$1" x="124.46" y="114.3" rot="R180"/>
-<instance part="GP13B+" gate="G$1" x="144.78" y="121.92"/>
-<instance part="R32" gate="G$1" x="144.78" y="106.68" rot="R90"/>
-<instance part="R33" gate="G$1" x="149.86" y="114.3" rot="R180"/>
-<instance part="GP19B+" gate="G$1" x="167.64" y="121.92"/>
-<instance part="R34" gate="G$1" x="167.64" y="106.68" rot="R90"/>
-<instance part="R35" gate="G$1" x="172.72" y="114.3" rot="R180"/>
 <instance part="R36" gate="G$1" x="199.39" y="114.3" rot="R270"/>
 <instance part="LED1" gate="G$1" x="199.39" y="123.19" rot="R180"/>
 <instance part="R37" gate="G$1" x="212.09" y="114.3" rot="R270"/>
@@ -10314,34 +10290,6 @@ with different sets of drill holes or mounting pads</description>
 <wire x1="76.2" y1="127" x2="73.66" y2="127" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="127" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
 <label x="78.74" y="134.62" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="GP5B+" gate="G$1" pin="S1"/>
-<pinref part="GP5B+" gate="G$1" pin="S"/>
-<wire x1="99.06" y1="127" x2="96.52" y2="127" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="127" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
-<label x="101.6" y="137.16" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="GP6B+" gate="G$1" pin="S1"/>
-<pinref part="GP6B+" gate="G$1" pin="S"/>
-<wire x1="121.92" y1="127" x2="119.38" y2="127" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="127" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
-<label x="124.46" y="137.16" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="GP13B+" gate="G$1" pin="S1"/>
-<pinref part="GP13B+" gate="G$1" pin="S"/>
-<wire x1="147.32" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="127" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
-<label x="149.86" y="134.62" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="GP19B+" gate="G$1" pin="S1"/>
-<pinref part="GP19B+" gate="G$1" pin="S"/>
-<wire x1="170.18" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="127" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
-<label x="172.72" y="134.62" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
@@ -10544,11 +10492,6 @@ with different sets of drill holes or mounting pads</description>
 <label x="198.12" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="101.6" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
-<label x="99.06" y="99.06" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="X1" gate="G$1" pin="GPIO05"/>
 <wire x1="124.46" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
 <label x="111.76" y="43.18" size="1.778" layer="95"/>
@@ -10559,11 +10502,6 @@ with different sets of drill holes or mounting pads</description>
 <pinref part="K2" gate="G$1" pin="31"/>
 <wire x1="210.82" y1="30.48" x2="208.28" y2="30.48" width="0.1524" layer="91"/>
 <label x="198.12" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="101.6" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
-<label x="121.92" y="99.06" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="GPIO06"/>
@@ -10578,11 +10516,6 @@ with different sets of drill holes or mounting pads</description>
 <label x="198.12" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="101.6" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
-<label x="147.32" y="99.06" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="X1" gate="G$1" pin="GPIO13"/>
 <wire x1="124.46" y1="35.56" x2="121.92" y2="35.56" width="0.1524" layer="91"/>
 <label x="111.76" y="35.56" size="1.778" layer="95"/>
@@ -10593,11 +10526,6 @@ with different sets of drill holes or mounting pads</description>
 <pinref part="K2" gate="G$1" pin="35"/>
 <wire x1="210.82" y1="25.4" x2="208.28" y2="25.4" width="0.1524" layer="91"/>
 <label x="198.12" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="101.6" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
-<label x="170.18" y="99.06" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="GPIO19"/>
@@ -10870,26 +10798,6 @@ with different sets of drill holes or mounting pads</description>
 <wire x1="83.82" y1="114.3" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
 <label x="83.82" y="101.6" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="114.3" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
-<label x="106.68" y="101.6" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="R31" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="114.3" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
-<label x="129.54" y="101.6" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="114.3" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
-<label x="154.94" y="101.6" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="R35" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="114.3" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
-<label x="177.8" y="101.6" size="1.778" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="PITX" class="0">
 <segment>
@@ -11041,50 +10949,6 @@ with different sets of drill holes or mounting pads</description>
 <pinref part="R26" gate="G$1" pin="2"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 <junction x="73.66" y="114.3"/>
-</segment>
-<segment>
-<pinref part="GP5B+" gate="G$1" pin="P"/>
-<wire x1="96.52" y1="111.76" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="GP5B+" gate="G$1" pin="P1"/>
-<wire x1="96.52" y1="114.3" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
-<label x="96.52" y="111.76" size="1.778" layer="95" rot="R90"/>
-<pinref part="R28" gate="G$1" pin="2"/>
-<pinref part="R29" gate="G$1" pin="2"/>
-<junction x="96.52" y="114.3"/>
-</segment>
-<segment>
-<pinref part="GP6B+" gate="G$1" pin="P"/>
-<wire x1="119.38" y1="111.76" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="GP6B+" gate="G$1" pin="P1"/>
-<wire x1="119.38" y1="114.3" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="116.84" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
-<label x="119.38" y="111.76" size="1.778" layer="95" rot="R90"/>
-<pinref part="R30" gate="G$1" pin="2"/>
-<pinref part="R31" gate="G$1" pin="2"/>
-<junction x="119.38" y="114.3"/>
-</segment>
-<segment>
-<pinref part="GP13B+" gate="G$1" pin="P"/>
-<wire x1="144.78" y1="111.76" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="GP13B+" gate="G$1" pin="P1"/>
-<wire x1="144.78" y1="114.3" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
-<label x="144.78" y="111.76" size="1.778" layer="95" rot="R90"/>
-<pinref part="R32" gate="G$1" pin="2"/>
-<pinref part="R33" gate="G$1" pin="2"/>
-<junction x="144.78" y="114.3"/>
-</segment>
-<segment>
-<pinref part="GP19B+" gate="G$1" pin="P"/>
-<wire x1="167.64" y1="111.76" x2="167.64" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="GP19B+" gate="G$1" pin="P1"/>
-<wire x1="167.64" y1="114.3" x2="167.64" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
-<label x="167.64" y="111.76" size="1.778" layer="95" rot="R90"/>
-<pinref part="R34" gate="G$1" pin="2"/>
-<pinref part="R35" gate="G$1" pin="2"/>
-<junction x="167.64" y="114.3"/>
 </segment>
 </net>
 <net name="VCC" class="0">

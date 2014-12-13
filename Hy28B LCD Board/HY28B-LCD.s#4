@@ -10489,17 +10489,17 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="SJ5" library="jumper" deviceset="SJ" device=""/>
 <part name="SJ6" library="jumper" deviceset="SJ" device=""/>
 <part name="GP4_AB" library="adafruit" deviceset="SPST_TACT" device="-EVQQ2"/>
-<part name="R17" library="resistor" deviceset="R-EU_" device="M1206"/>
-<part name="R20" library="resistor" deviceset="R-EU_" device="M1206"/>
+<part name="R17" library="resistor" deviceset="R-EU_" device="M1206" value="1K"/>
+<part name="R20" library="resistor" deviceset="R-EU_" device="M1206" value="10K"/>
 <part name="GP27AB" library="adafruit" deviceset="SPST_TACT" device="-EVQQ2"/>
-<part name="R22" library="resistor" deviceset="R-EU_" device="M1206"/>
-<part name="R23" library="resistor" deviceset="R-EU_" device="M1206"/>
+<part name="R22" library="resistor" deviceset="R-EU_" device="M1206" value="1K"/>
+<part name="R23" library="resistor" deviceset="R-EU_" device="M1206" value="10K"/>
 <part name="GP22AB" library="adafruit" deviceset="SPST_TACT" device="-EVQQ2"/>
-<part name="R24" library="resistor" deviceset="R-EU_" device="M1206"/>
-<part name="R25" library="resistor" deviceset="R-EU_" device="M1206"/>
+<part name="R24" library="resistor" deviceset="R-EU_" device="M1206" value="1K"/>
+<part name="R25" library="resistor" deviceset="R-EU_" device="M1206" value="10K"/>
 <part name="GP24AB" library="adafruit" deviceset="SPST_TACT" device="-EVQQ2"/>
-<part name="R26" library="resistor" deviceset="R-EU_" device="M1206"/>
-<part name="R27" library="resistor" deviceset="R-EU_" device="M1206"/>
+<part name="R26" library="resistor" deviceset="R-EU_" device="M1206" value="1K"/>
+<part name="R27" library="resistor" deviceset="R-EU_" device="M1206" value="10K"/>
 <part name="R36" library="dp_devices" deviceset="RESISTOR" device="-1206" value="1K"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_1206"/>
 <part name="R37" library="dp_devices" deviceset="RESISTOR" device="-1206" value="1K"/>

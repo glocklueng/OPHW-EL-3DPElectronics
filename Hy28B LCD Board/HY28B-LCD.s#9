@@ -10635,6 +10635,11 @@ with different sets of drill holes or mounting pads</description>
 <wire x1="311.15" y1="31.75" x2="311.15" y2="36.83" width="0.1524" layer="91"/>
 <label x="295.91" y="31.75" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="ID_SD"/>
+<wire x1="154.94" y1="15.24" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
+<label x="160.02" y="15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -10769,6 +10774,11 @@ with different sets of drill holes or mounting pads</description>
 <wire x1="293.37" y1="34.29" x2="300.99" y2="34.29" width="0.1524" layer="91"/>
 <wire x1="300.99" y1="34.29" x2="300.99" y2="36.83" width="0.1524" layer="91"/>
 <label x="295.91" y="34.29" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="ID_SC"/>
+<wire x1="154.94" y1="17.78" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
+<label x="160.02" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO12" class="0">
@@ -11102,20 +11112,6 @@ with different sets of drill holes or mounting pads</description>
 <segment>
 <pinref part="X1" gate="G$1" pin="3V3"/>
 <wire x1="144.78" y1="78.74" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="ID_SC"/>
-<wire x1="154.94" y1="17.78" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
-<label x="160.02" y="17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="ID_SD"/>
-<wire x1="154.94" y1="15.24" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
-<label x="160.02" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$12" class="0">

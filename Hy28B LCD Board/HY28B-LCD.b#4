@@ -136,7 +136,7 @@
 <layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="OHSILK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="OHSILK" color="14" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -1465,6 +1465,11 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="26.52624375" y1="52.34075625" x2="27.8765" y2="50.9905" width="0.4064" layer="16"/>
 <wire x1="27.8765" y1="50.9905" x2="27.8765" y2="49.36046875" width="0.4064" layer="16"/>
 <wire x1="27.8765" y1="49.36046875" x2="28.130884375" y2="49.106084375" width="0.4064" layer="16"/>
+<via x="27.4955" y="20.955" extent="1-16" drill="0.6" shape="square"/>
+<via x="31.8135" y="41.402" extent="1-16" drill="0.6" shape="square"/>
+<via x="84.8995" y="11.4935" extent="1-16" drill="0.6" shape="square"/>
+<via x="41.021" y="45.2755" extent="1-16" drill="0.6" shape="square"/>
+<via x="38.1635" y="45.593" extent="1-16" drill="0.6" shape="square"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U2" pad="8"/>
